@@ -1,0 +1,164 @@
+body {   
+    background-color: #08161e;
+    font-family: 'Courier New', Courier, monospace; 
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+.row {
+    display: flex;
+    justify-content: center; /* Центрирует содержимое по горизонтали */
+    align-items: center; /* Опционально, центрирует содержимое по вертикали */
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between; /* Это распределяет пространство между элементами */
+    align-items: center; /* Это выравнивает элементы по вертикали */
+    width: 100%;
+}
+.nav_text {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+}
+
+.title_photo {
+    text-align: center;
+}
+
+.light_meme{
+    background: url(../image/photo.jpg) no-repeat center center;
+    background-size: 100%;
+    width: 350px;
+    height: 350px;
+}
+
+.nav_logo{
+    background: url(../image/logo2.svg) no-repeat center center;
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    fill: #ffffff;
+}
+
+.button_js{
+    text-align: center;
+}
+
+#myButton{
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: #1ba000;
+    color: #08161e;
+    font-weight: bold;
+}
+
+#demo img {
+    margin-top: 20px;
+    width: 25%;
+}
+
+.index {
+    text-align: center;
+}
+
+.row.form_reg {
+    justify-content: center; 
+    margin-bottom: 15px;
+  }
+  
+  
+.form_reg {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #08161e; 
+    color: white; 
+}
+  
+.btn_green {
+    background-color: #1ba000; 
+    color: #08161e; 
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px; 
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+  
+.btn_green:hover {
+    background-color: #157a00; 
+}
+
+.form{
+    width: 80%;
+    max-width: 300px;
+}
+
+.btn_reg{
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+}
+
+.h1_bro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hello{
+    text-align: center;
+}
+
+.col-12_form{
+    display: flex;
+    justify-content: center;
+}
+
+.form_input, 
+textarea {
+  display: block; 
+  width: 100%; 
+  box-sizing: border-box; 
+  margin-bottom: 10px;
+}
+
+.title_h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.posts_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.nnn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fff{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.silka{
+    display: flex;
+    justify-content: center;
+}
